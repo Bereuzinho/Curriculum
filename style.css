@@ -1,0 +1,77 @@
+/*PARA COMENTAR EM CSS ->/**/
+
+#cabecalho{
+    background-color: #064e89;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+    
+}
+
+#nameAndTitle{
+    background-color:#b4cadc;
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+
+body{
+    background-color: #b4cadc;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+#contact{
+    list-style-type: none;
+}
+
+.teste{
+    list-style-type:'- ';
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap:20px ;
+}
+
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#container1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.card h3{
+    font-family: 'Hubballi', cursive;
+}
+
+.card{
+    font-family: Montserrat;
+    border: 1px solid #A5B9C9;
+    border-radius: 15px;
+    padding: 20px;
+    /*background-color: #abc0d1;*/
+    box-shadow: 7px 3px 3px #7D8D99;
+}
+
+.card1{
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bordaImg{
+    border-radius: 50%;
+}
